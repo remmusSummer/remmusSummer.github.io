@@ -16,6 +16,7 @@ date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 # Theme settings
 style: default               # choose between "default", "contrast" and "minimal"
 dark_theme: false            # enables dark mode
+dark_header: true
 
 navigation:                  # (optional) site navigation in the header
   - index.html
@@ -31,7 +32,7 @@ comments:                    # embed disqus or isso comments
 #  disqus: ""
 #  isso: ""
 
-plugins: 
+plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-default-layout
